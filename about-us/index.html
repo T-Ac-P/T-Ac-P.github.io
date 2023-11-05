@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Action Party of Canada</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header id="navbar">
+    <!-- NAVBAR -->
+    <div class="nav-sec">
+      <a id="party-logo" href="/">
+        <img id="pimg" src="../assets/images/logo.png"></img>
+      </a>
+    </div>    
+    <div class="nav-sec">
+      <div class="nav-sec">
+        <a class="nav-link" href="../about-us">About</a>
+        <a class="nav-link" href="../leader-profile">Leader</a>
+        <a class="nav-link" href="../platform">Platform</a>
+        <!-- The contract! -->
+        <a class="nav-link nav-button" href="../donate">Donate!</a>
+        <div class="nav-sec">
+          <button class="nav-link nav-translate" onclick="nerdify()">FR</button>
+      </div>
+    </div>
+  </header>
+  <div id="french-modal">
+    <header id="modal-bar">
+      <button onclick="closeModal()" id="modal-x">
+        <bold>x</bold>
+      </button>
+    </header>
+    <p id="modal-text">This button does not work. No way was I going to implement translation myself. That sounds really hard, and I don't speak French. Imagine that it works, and brings you to a French version of this page for the sake of the project, though.</p>
+  </div>
+  <div style="height: 15vh"></div>
+
+  <div id="main-content-island">
+    <div id="main-content" style="justify-content: center; flex-direction: column;">
+      <h1 class="main-content-title">About Us</h1>
+      <h2 class="content main-content-subtitle">Our Party Name</h2>
+      <p class="content main-content-paragraph">&emsp;We chose our party name to be intentionally vague. When you hear, “Canadian Liberal Party” or “Canadian Conservative Party”, you immediately have a pretty good idea of the politics this party runs on. If you don’t agree ideologically with your conception of the party, you will not want to learn any more about them. When you hear, “The Canadian Action Party,” you are intrigued. A name like ours forces someone to do some research into the party, where they can form a full (and hopefully positive) opinion. By having a name that does not directly betray our politics, we hope to generate interest from all over the political spectrum.</p>
+      <h2 class="content main-content-subtitle">Our Party Logo</h2> <!-- Add logo to this section -->
+      <div style="display: flex;">
+        <p class="content main-content-paragraph">&emsp;Our logo is meant to be simple and bold. We include the Maple leaf, as all parties do, and as a symbol of national pride. It should be memorable, and easy enough to draw. We have the word “ACT” bolded in the centre of our logo. This word easily identifies our political party, while sticking with the generally dynamic and minimal theme of our logo. We chose this word instead of an initialism for our party, because we believe it is more recognizable and symbolic. It also serves as a reminder of what our party promises to do, with immediacy. </p>
+        <img style="border: black 1px solid; border-radius: 14px;width: 20%;margin-bottom: 1em;margin-left: 2vw;margin-top: 1em;" src="../assets/images/logo.png"/>
+      </div>
+      <h2 class="content main-content-subtitle">Our Party Slogan</h2> <!-- Add Slogan to this section -->
+      <div style="display: flex;">
+        <p class="content main-content-paragraph">&emsp;Our slogan is “Progress with Purpose.” A common criticism of left-leaning parties like ours is the pointless changing of working institutions and traditions that need no changing. We have chosen a slogan that fits our bi-partisan-appealing theme, where we display our committment to progress, but also promise to keep it reasonable and fair to everyone.
+        </p>
+        <img style="border-radius: 14px;width: 14%;margin-bottom: 1em;margin-left: 2vw;margin-top: 1em;" src="../assets/images/slogan.png"/>
+      </div>
+      
+      <h2 class="content main-content-subtitle">About This Website</h2>
+      <p class="content main-content-paragraph">&emsp;This website was handwritten in pure HTML, from scratch, with the blood, sweat, and tears of Reilley Pfrimmer. If a visitor unfamiliar to me stumbles across this website somehow, this is obviously NOT a real political party.
+      <div class="stamp-div">
+        <img class="stamp" src="../assets/images/logo.png"></img>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer-column-header" id="foot-col-head-1">
+      <h3>Get Involved</h3>
+      <a href="/donate" class="footer-link">Donate</a>
+      <a href="/join" class="footer-link">Become a Member</a>
+      <a href="/jobs" class="footer-link">Careers</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-2">
+      <h3>The Team</h3>
+      <a href="/leader-profile" class="footer-link">Jean Paul-Pierre</a>
+      <a href="/cabinet" class="footer-link">Meet the Cabinet</a>
+      <a href="/contact-us" class="footer-link">Contact Us</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-3">
+      <h3>Find Us</h3>
+      <a target="_blank" href="https://twitter.com/theactparty_ca" class="footer-link">Twitter</a>
+      <a target="_blank" href="https://facebook.com/theactparty_ca" class="footer-link">Facebook</a>
+      <a target="_blank" href="https://youtube.com/user/theactpartyCA" class="footer-link">Youtube</a>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>

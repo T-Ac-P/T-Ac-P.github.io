@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Action Party of Canada</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header id="navbar">
+    <!-- NAVBAR -->
+    <div class="nav-sec">
+      <a id="party-logo" href="/">
+        <img id="pimg" src="../assets/images/logo.png"></img>
+      </a>
+    </div>    
+    <div class="nav-sec">
+      <div class="nav-sec">
+        <a class="nav-link" href="../about-us">About</a>
+        <a class="nav-link" href="../leader-profile">Leader</a>
+        <a class="nav-link" href="../platform">Platform</a>
+        <!-- The contract! -->
+        <a class="nav-link nav-button" href="../donate">Donate!</a>
+        <div class="nav-sec">
+          <button class="nav-link nav-translate" onclick="nerdify()">FR</button>
+      </div>
+    </div>
+  </header>
+  <div id="french-modal">
+    <header id="modal-bar">
+      <button onclick="closeModal()" id="modal-x">
+        <bold>x</bold>
+      </button>
+    </header>
+    <p id="modal-text">This button does not work. No way was I going to implement translation myself. That sounds really hard, and I don't speak French. Imagine that it works, and brings you to a French version of this page for the sake of the project, though.</p>
+  </div>
+  <div style="height: 15vh"></div>
+
+  <div id="main-content-island">
+    <div id="main-content" style="justify-content: center; flex-direction: column;">
+      <div id="leader-img-div">
+        <img id="leader-img" src="../assets/images/leader.png"></img>
+        <div id="abs-text">
+          <h1 class="leader-overtext">Jean Paul-Pierre</h1>
+          <hr>
+          <h2 class="leader-sub-overtext">LEADER OF THE ACTION PARTY <br> OF CANADA</h2>
+        </div>
+      </div>
+      <div id="graphic-container">
+        <!-- canvas id="c"></canvas> -->
+        <div class="cloud main-cloud">
+          <h1 style="padding-left: 5vw; padding-right: 5vw; font-family: open-sans;">Who is Jean Paul-Pierre?</h1>
+        </div>
+        <div id="father" class="cloud sub-cloud">
+          <h3>Father</h3>
+        </div>
+        <div id="lawyer" class="cloud sub-cloud">
+          <h3>Lawyer</h3>
+        </div>
+        <div id="leader" class="cloud sub-cloud">
+          <h3>Leader</h3>
+        </div>
+        <div id="brother" class="cloud sub-cloud">
+          <h3>Brother</h3>
+        </div>
+        <div id="husband" class="cloud sub-cloud">
+          <h3>Husband</h3>
+        </div>
+        <div id="proud" class="cloud sub-cloud">
+          <h3>Proud</h3>
+        </div>
+        <div id="premier" class="cloud sub-cloud">
+          <h3>Premier</h3>
+        </div>
+        <div id="mayor" class="cloud sub-cloud">
+          <h3>Mayor</h3>
+        </div>
+      </div>
+      <h2 style="margin-top: 20vh;" class="content main-content-subtitle">About Jean</h2>
+      <p class="content main-content-paragraph">&emsp;Jean Paul-Pierre (b. 1981, September 6th) was born to a Vancouverite mother and a Quebecois father, along with his 2 brothers. He and his wife, Jeanette Paul-Pierre, have 2 children, 10 and 12. Jeanette is a nurse at the Vancouver General Hospital.
+<br><br>
+        &emsp;Jean is an experienced politician with an extensive background in municipal, provincial, and federal politics. He served as a criminal defence lawyer for 6 years before getting involved in his city's council. After highschool, Jean obtained a BA in political science from McGill. He graduated as a bachelor of laws from the University of Saskatchewan’s College of Law. He was called to the bar of Saskatchewan in 2008. 
+<br><br>
+        &emsp;He joined the Saskatoon City council in 2014. A valued member of the council, he ran in the Saskatoon Mayoral election in 2016. In 2020, due to his immense popularity as mayor of Saskatoon, he ran for premier, and was elected. He has served 3 very successful years as premier, bringing economic success and prosperity to the province. Now, he wants your support in the upcoming federal election. 
+<br><br>
+        &emsp;Jean is an outspoken philanthropist. He uses what he has to improve the lives of those around him. As an active member of his community, you’ll find him at social events and gatherings in Saskatoon. Jean is a man whose natural habitat is leadership positions.  He always has a plan, and he always has the courage to act, never afraid to voice his opinion. A vote for Jean is a vote for fast action, stability, and spirit.
+</p>
+      <div class="stamp-div">
+        <img class="stamp" src="../assets/images/logo.png"></img>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer-column-header" id="foot-col-head-1">
+      <h3>Get Involved</h3>
+      <a href="/donate" class="footer-link">Donate</a>
+      <a href="/join" class="footer-link">Become a Member</a>
+      <a href="/jobs" class="footer-link">Careers</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-2">
+      <h3>The Team</h3>
+      <a href="/leader-profile" class="footer-link">Jean Paul-Pierre</a>
+      <a href="/cabinet" class="footer-link">Meet the Cabinet</a>
+      <a href="/contact-us" class="footer-link">Contact Us</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-3">
+      <h3>Find Us</h3>
+      <a target="_blank" href="https://twitter.com/theactparty_ca" class="footer-link">Twitter</a>
+      <a target="_blank" href="https://facebook.com/theactparty_ca" class="footer-link">Facebook</a>
+      <a target="_blank" href="https://youtube.com/user/theactpartyCA" class="footer-link">Youtube</a>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>
