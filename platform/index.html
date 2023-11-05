@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Action Party of Canada</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header id="navbar">
+    <!-- NAVBAR -->
+    <div class="nav-sec">
+      <a id="party-logo" href="/">
+        <img id="pimg" src="../assets/images/logo.png"></img>
+      </a>
+    </div>    
+    <div class="nav-sec">
+      <div class="nav-sec">
+        <a class="nav-link" href="../about-us">About</a>
+        <a class="nav-link" href="../leader-profile">Leader</a>
+        <a class="nav-link" href="../platform">Platform</a>
+        <!-- The contract! -->
+        <a class="nav-link nav-button" href="../donate">Donate!</a>
+        <div class="nav-sec">
+          <button class="nav-link nav-translate" onclick="nerdify()">FR</button>
+      </div>
+    </div>
+  </header>
+  <div id="french-modal">
+    <header id="modal-bar">
+      <button onclick="closeModal()" id="modal-x">
+        <bold>x</bold>
+      </button>
+    </header>
+    <p id="modal-text">This button does not work. No way was I going to implement translation myself. That sounds really hard, and I don't speak French. Imagine that it works, and brings you to a French version of this page for the sake of the project, though.</p>
+  </div>
+  <div style="height: 15vh"></div>
+
+  <div id="main-content-island">
+    <div id="main-content" style="justify-content: center; flex-direction: column;">
+      <h1 class="main-content-title">Our Platform</h1>
+      <!-- the cliffnotes here -->
+      <div id="the-cliffnotes">
+        <h2 style="text-align: center; margin-left: -7vw;"class="content main-content-subtitle">The Cliffnotes:</h2>
+        <em style="font-size: 30px; font-family: 'open-sans';" class="cusfont">If you're in a hurry...</em>
+        <ul class="cusfont" style="list-style: url('../assets/images/maple_leaf.svg');">
+          <li>Medical System Reform</li>
+          <ul>
+            <li>Two-Tier system</li>
+            <ul>
+              <li>Affordable for average Canadian</li>
+              <li>Free option also available</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>Students looking to become doctors receive benefits in Canada</li>
+            <ul>
+              <li>Removal of interest on student loans</li>
+              <li>Term-based contracts to keep doctors in Canada and financially stable + happy</li>
+            </ul>
+          </ul>
+          <li>Nationalisation of Grocery</li>
+          <ul>
+            <li>Keep Canadian products in Canada, sourced, manufactured, processed, etc.</li>
+            <li>Deals with large companies to increase intranational production</li>
+            <li>Easy to tell what products are Canadian</li>
+          </ul>
+          <li>Nationalisation of the Housing Market</li>
+          <ul>
+            <li>Canadian Citizenship required to own property in Canada</li>
+            <ul>
+              <li>No exceptions</li>
+            </ul>
+            <li>Tax breaks for developers building rental properties, landlords who own them</li>
+            <li>Flexible and zone dependent hard limits on how much may be asked for in a lease</li>
+            <ul>
+              <li>For example, rent must be capped at a specific price for new families, students, etc.</li>
+              <li>Compensated for by the tax breaks and benefits given to developers and landlords</li>
+            </ul>
+          </ul>
+        </ul>
+        <div style="display: flex; justify-content: center;">
+          <img style="margin-left: -7vw; width:75%;" src="../assets/images/roadmap.svg"/>
+        </div>
+      </div>
+      <h2 class="content main-content-subtitle">Our Commitment to the Housing Market</h2>
+      <p class="content main-content-paragraph">&emsp;In Canada today, a housing crisis looms over the biggest urban centres in our country. People can’t afford the houses they live in, and more people than ever live on the streets. Meanwhile, foreign actors launder money with empty properties and artificially inflate the housing market. We promise to put a stop to the madness, by introducing legislation to ban offshore ownership of Canadian property. We want to give major tax breaks to landlords and developers creating rental property, and implement hard caps on how much Canadians pay for rent. </p>
+      <h2 class="content main-content-subtitle">...And Affordability</h2>
+      <p class="content main-content-paragraph">&emsp;In grocery stores across the country, prices soar, unchecked and untethered. By outsourcing our chain of production, we effectively rely on other countries to keep prices down. The Canadian Action Party wants to take back what’s ours, and use it to give Canadians a better deal. By nationalising our supply chain, we can bring the onus back to the Canadian government to provide Canadians with the lowest prices, and finally have an entity to hold responsible for inflation.</p>
+      <h2 class="content main-content-subtitle">Our Plan for Medicare</h2>
+      <p class="content main-content-paragraph">&emsp;Our Medicare plan will ensure that all Canadians have access to affordable health care that suits their needs and income level. Our medicare system has served us very well, but it’s time to face the facts: some serious cracks are forming in the hull, and they need to be patched. With excessive wait times, low doctor retention, burnout, abuse of nursing staff, ER/OR overcrowding, and so many other difficulties, it’s impossible to see us moving forward as a country without repairing our system. The Action Party of Canada proposes an affordable, 2-tier healthcare system that would split the line of people waiting for access to life saving care in half, by redirecting those who can pay to hospitals that are better suited to take care of their individual needs, and allowing those who cannot to still have access to top quality medical care, but without the wait. Medicare is one of our most trusted institutions, and we cannot allow it to fall to the wayside because we neglect to maintain it with the care <em>it</em> deserves.</p>
+      <h2 class="content main-content-subtitle">The Path to Equality in Governance</h2>
+      <p class="content main-content-paragraph">&emsp;You, as a Canadian, have an important voice. A voice that wants to be heard, to be represented in today’s government. It’s obvious that values and opinions of a person are based on one’s own personal identity. Then how are we Canadians not represented equally in the parliament of the 21st century? In order to make sure that every Canadian is heard, the government must be represented by proper gender ratios. By the people, for the people.</p>
+      <h2 class="content main-content-subtitle">The Fight to Secure our future through the Environment</h2>
+      <p class="content main-content-paragraph">&emsp;Our natural resources are Canada’s most prized possessions. The Action Party of Canada realises that protecting them involves tackling the climate crisis head-on. We promise to meet and surpass previously set climate goals, and set new and ambitious ones for the future. The Action Party of Canada will make Canada world leaders in green technology, reduce our carbon footprint to zero, and pave the way for truly sustainable energy infrastructure. We believe we can do this without sacrificing a thing.</p>
+      <div class="stamp-div">
+        <img class="stamp" src="../assets/images/logo.png"></img>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer-column-header" id="foot-col-head-1">
+      <h3>Get Involved</h3>
+      <a href="/donate" class="footer-link">Donate</a>
+      <a href="/join" class="footer-link">Become a Member</a>
+      <a href="/jobs" class="footer-link">Careers</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-2">
+      <h3>The Team</h3>
+      <a href="/leader-profile" class="footer-link">Jean Paul-Pierre</a>
+      <a href="/cabinet" class="footer-link">Meet the Cabinet</a>
+      <a href="/contact-us" class="footer-link">Contact Us</a>
+    </div>
+    <div class="footer-column-header" id="foot-col-head-3">
+      <h3>Find Us</h3>
+      <a target="_blank" href="https://twitter.com/theactparty_ca" class="footer-link">Twitter</a>
+      <a target="_blank" href="https://facebook.com/theactparty_ca" class="footer-link">Facebook</a>
+      <a target="_blank" href="https://youtube.com/user/theactpartyCA" class="footer-link">Youtube</a>
+    </div>
+  </footer>
+  <script src="../script.js"></script>
+</body>
+</html>
